@@ -1,0 +1,32 @@
+{
+  "customer": "DemoCare Horizon",
+  "observations": [
+    {
+      "source": "VOICE",
+      "sourceQuality": 0.72,
+      "facts": {
+        "customer": "DemoCare Horizon",
+        "modality": "MR",
+        "quantity": 3,
+        "installedYear": 2017
+      },
+      "text": "Three MR systems at DemoCare Horizon, installed around 2017."
+    },
+    {
+      "source": "VISIONPSY",
+      "sourceQuality": 0.95,
+      "facts": {
+        "customer": "DemoCare Horizon",
+        "modality": "MR",
+        "manufacturer": "BluePeak",
+        "model": "MR-X500",
+        "serial": "BP88921"
+      }
+    }
+  ],
+  "expected": {
+    "status": "VERIFIED",
+    "conflicts": 0,
+    "lifecycleInsight": true
+  }
+}

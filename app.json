@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AURA FieldGraph",
+    "slug": "aura-fieldgraph",
+    "version": "14.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.aurafieldgraph.showstopper",
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.aurafieldgraph.showstopper",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": { "minSdkVersion": 31 },
+          "ios": { "deploymentTarget": "17.0" }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow AURA FieldGraph to capture equipment evidence."
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow AURA FieldGraph to capture field observations."
+        }
+      ],
+      "@qvac/sdk/expo-plugin"
+    ]
+  }
+}
